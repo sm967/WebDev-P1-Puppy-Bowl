@@ -1,0 +1,166 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    text-align: center;
+    background-color: #005000;
+    color: #B0802B;
+}
+
+:link {
+    color: #17A917;
+}
+
+:visited {
+    color: #008500;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 25px;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+
+nav ul li {
+    display: inline;
+    padding: 3%;
+    font-size: xx-large;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li :link, nav ul li :visited {
+    color: #ffa400;
+}
+
+#navdivholder {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+#navdiv1 {
+    padding-left: 120px;
+    padding-top: 20px;
+}
+
+#navdiv2 {
+    flex-grow: 3;
+    align-self: center;
+}
+
+.current {
+    text-decoration: underline;
+}
+
+h1, h2, h3 {
+    color:#ffa400;
+}
+
+#streamlink {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#about-holder {
+    text-align: center;
+}
+
+#about-content {
+    display: inline-block;
+    border: solid white 2px;
+    background-color: #175F17;
+    border-radius: 10px;
+    width: 75%;
+    line-height: 1.75;
+}
+
+#staff-holder {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#about-content p {
+    margin: 20px;
+}
+
+#puppies-holder {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/* Contact Styling */
+#contact-form {
+    color: white;
+    background-color: #BA7800;
+    display: block;
+    width: 70%;
+    margin: 0px auto;
+    margin-top: 25px;
+    padding: 30px;
+}
+
+#contact-form h1, #contact-form h3 {
+    color: white;
+}
+
+.form-inputs {
+    border: solid white 1px;
+    padding: 10px 0;
+    margin: 10px 20px;
+    border-radius: 4px;
+    font-size: x-large;
+}
+
+input, textarea {
+    width: 100%;
+    background: none;
+    border: dashed white 1px;
+    width: 95%;
+    margin: 0 auto;
+    color: white;
+}
+
+textarea {
+    height: 250px;
+}
+
+#submitbutton{
+    color: white;
+    display: block;
+    font-size: xx-large;
+    font-weight: bold;
+    width: 150px;
+    height: 80px;
+    margin: 0 auto;
+    border: solid white 1px;
+}
+
+.confirmation {
+    margin-bottom: 80px;
+}
+
+.form-error {
+    color: red;
+    margin-top: 10px;
+}
+
+.hidden{
+    display: none;
+}
